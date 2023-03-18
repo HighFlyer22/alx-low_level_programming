@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 /**
-  * The main program prints all possible distinct combinations of three numbers.
+  * main - Prints 3 combination of numbers
   *
   * Return: 0
   */
