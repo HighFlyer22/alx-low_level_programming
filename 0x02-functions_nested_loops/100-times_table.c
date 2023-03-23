@@ -3,7 +3,7 @@
 /**
  * print_times_table - function that prints the n times table, starting with 0.                
  * @n:  value of the times table.
- * Return: n If n is less than 15 or greater than 0, otherwise 
+ * Return : 0 
  */
 void print_times_table(int n)
 {
