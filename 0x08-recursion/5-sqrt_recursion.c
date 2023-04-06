@@ -1,11 +1,13 @@
 #include "main.h"
 
 /**
- * find_sqrt - Computes the natural square root of a number recursively
+ * find_sqrt - Computes the natural square root 
+ *             of a number recursively
  * @num: The number to compute the square root of
  * @root: The current root value to test
  *
- * Return: The natural square root of the number if it exists, otherwise -1
+ * Return: The natural square root of the number if it exists,
+ *          otherwise -1
  */
 
 int find_sqrt(int num, int root)
@@ -20,10 +22,12 @@ int find_sqrt(int num, int root)
 }
 
 /**
- * _sqrt_recursion - Computes the natural square root of a number using recursion
+ * _sqrt_recursion - Computes the natural square root
+ *                   of a number using recursion
  * @n: The number to compute the square root of
  *
- * Return: The natural square root of the number if it exists, otherwise -1
+ * Return: The natural square root of the number if it exists,
+ *         otherwise -1
  */
 
 int _sqrt_recursion(int n)
