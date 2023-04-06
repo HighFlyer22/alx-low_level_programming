@@ -1,7 +1,8 @@
 #include "main.h"
 
 /**
- * strlen_no_wilds - Helper function to find the length of a string without wildcards
+ * strlen_no_wilds - Helper function to find
+ *                   the length of a string without wildcards
  * @str: The string to find the length of
  *
  * Return: The length of the string without wildcards
@@ -24,7 +25,8 @@ int strlen_no_wilds(char *str)
 }
 
 /**
- * iterate_wild - Helper function to iterate past consecutive wildcards in a string
+ * iterate_wild - Helper function to iterate past
+ *                consecutive wildcards in a string
  * @wildstr: A pointer to a pointer to the start of a wildcard string
  */
 
@@ -38,11 +40,13 @@ void iterate_wild(char **wildstr)
 }
 
 /**
- * postfix_match - Helper function to find the first matching postfix of a string
+ * postfix_match - Helper function to find the first matching
+ *                 postfix of a string
  * @str: The string to search for the postfix in
  * @postfix: The postfix to search for
  *
- * Return: A pointer to the first matching postfix, or NULL if not found
+ * Return: A pointer to the first matching postfix,
+ *         or NULL if not found
  */
 char *postfix_match(char *str, char *postfix)
 {
@@ -62,11 +66,14 @@ char *postfix_match(char *str, char *postfix)
 }
 
 /**
- * wildcmp - Compares two strings and returns 1 if they can be considered identical
+ * wildcmp - Compares two strings and returns 1
+ *           if they can be considered identical
  * @s1: The first string to compare
- * @s2: The second string to compare, which may contain the wildcard character *
+ * @s2: The second string to compare,
+ *      which may contain the wildcard character *
  *
- * Return: 1 if strings can be considered identical, 0 otherwise
+ * Return: 1 if strings can be considered identical,
+ *         0 otherwise
  */
 int wildcmp(char *s1, char *s2)
 {
