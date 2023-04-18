@@ -6,8 +6,8 @@
  * @name: a pointer to a string representing the dog's name
  * @age: a floating-point number representing the dog's age
  * @owner: a pointer to a string representing the dog's owner
- *
- */
+  */
+
 void init_dog(struct dog *d, char *name, float age, char *owner)
 {
 	if (d != NULL)
