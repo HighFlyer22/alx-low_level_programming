@@ -3,6 +3,7 @@
 
 /**
  * init_dog - a struct representing a dog
+ * @d: The dog to be initialized
  * @name: a pointer to a string representing the dog's name
  * @age: a floating-point number representing the dog's age
  * @owner: a pointer to a string representing the dog's owner
